@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JRC Ingeniería Eléctrica - Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f8f9fa; color: #002B5B; }
+    header { background: linear-gradient(#002B5B, #00F0FF); color: white; text-align: center; padding: 60px 20px; }
+    h1 { font-size: 3rem; margin: 0; }
+    .logo { width: 150px; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .proyecto { background: white; border-radius: 10px; padding: 20px; margin: 20px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="tu-logo-jrc.png" alt="Logo JRC" class="logo"> <!-- Sube tu logo aquí -->
+    <h1>JRC Ingeniería Eléctrica</h1>
+    <p>Proyectista Eléctrico y Certificador Energético Oficial</p>
+  </header>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Más de X años de experiencia. Especialista en instalaciones de baja tensión, autoconsumo fotovoltaico, cargadores VE y Certificados de Eficiencia Energética (CEE). He mejorado la calificación energética de +XX proyectos.</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos destacados</h2>
+    <div class="proyecto">
+      <h3>Reforma vivienda Barcelona 2025</h3>
+      <p>Instalación eléctrica completa + autoconsumo 8 kW + Certificado E → B</p>
+      <img src="foto-proyecto1.jpg" width="100%" alt="Proyecto 1"> <!-- Sube tus fotos -->
+    </div>
+    <!-- Repite esta sección para 3-4 proyectos más -->
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: tu@email.com | Tel: tu número | LinkedIn: tu-perfil</p>
+    <p><a href="portfolio-pdf.pdf" target="_blank">Descargar portfolio completo (PDF)</a></p>
+  </section>
+</body>
+</html>
